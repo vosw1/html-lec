@@ -12,8 +12,8 @@
             height: 500px;
             background-color: skyblue;
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            justify-content: end;
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
         }
 
         .inner-box1 {
@@ -27,6 +27,12 @@
             height: 100px;
             background-color: blue;
         }
+
+        .inner-box3 {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
     </style>
 </head>
 
@@ -34,6 +40,7 @@
     <div class="outer-box">
         <div class="inner-box1">1</div>
         <div class="inner-box2">2</div>
+        <div class="inner-box3">3</div>
     </div>
 </body>
 
