@@ -10,8 +10,11 @@
 
         .flex-container {
             width: 80%;
+            height: 500px;
             display: flex;
+            flex-direction: row;
             background-color: DodgerBlue;
+            justify-content: space-between;
         }
 
         .flex-container>div {
@@ -19,6 +22,21 @@
             margin: 10px;
             padding: 20px;
             font-size: 30px;
+            height: 50px;
+            flex: 1;
+        }
+
+        .a {
+            flex: 1;
+        }
+
+
+        .b {
+            flex: 2;
+        }
+
+        .c {
+            flex: 1;
         }
     </style>
 </head>
@@ -26,9 +44,9 @@
 <body>
     <div class="main">
         <div class="flex-container">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+            <div class="a">1</div>
+            <div class="b">2</div>
+            <div class="c">3</div>
         </div>
     </div>
 
