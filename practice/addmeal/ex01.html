@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .main {
+            background-color: #FAFAFC;
+            width: 1000px;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            font-weight: 700;
+        }
+
+        .menu {}
+
+        .menu-icon {
+            display: grid;
+            grid-template-columns: repeat(15, 1fr);
+            border: 10px;
+            border-radius: 100% rgb(194, 182, 182);
+        }
+
+        .menu-icon>div {
+            border: 1px solid #D2D2D3;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+
+        .menu-name {
+            display: grid;
+            grid-template-columns: repeat(15, 1fr);
+        }
+
+        .subtitle {
+            width: 100px;
+        }
+
+        .subtitle-name {
+            font-weight: 700;
+        }
+
+        .subtitle-img {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 60px;
+            object-fit: cover;
+        }
+
+        .bottom {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">
+            <div>Add meals</div>
+        </div>
+        <div class="menu">
+            <div class="menu-icon">
+                <div>🥪</div>
+                <div>🍕</div>
+                <div>🥩</div>
+                <div>🥗</div>
+            </div>
+            <div class="menu-name">
+                <div>All</div>
+                <div>Pizza</div>
+                <div>Meat</div>
+                <div>Veggies</div>
+            </div>
+        </div>
+        <hr>
+        <div class="subtitle">
+            <div class="subtitle-name">Featured meals</div>
+            <div class="subtitle-img">
+                <img src="./meal1.png">
+                <img src="./meal2.png">
+                <img src="./meal3.png">
+                <img src="./meal4.png">
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="text1">
+                <div>Pasta Carbonara</div>
+                <div>➕</div>
+            </div>
+            <div class="text2">
+                <div>Lasana</div>
+                <div>➕</div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
