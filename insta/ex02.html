@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        .mr-20 {
+            margin-right: 20px;
+        }
+
+        .mt-20 {
+            margin-top: 20px;
+        }
+
+        .body {
+            display: flex;
+
+        }
+
+        .login {
+            width: 400px;
+            border: 1px solid #EFEFEF;
+
+        }
+
+        .btn-login {
+            width: 100%;
+            background-color: #4CB5F9;
+            color: white;
+        }
+
+        .bottom-img {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .facebook {
+            color: #385185;
+            display: flex;
+            justify-content: center;
+        }
+
+        .sign {
+            width: 100%;
+            background-color: white;
+            position: relative;
+        }
+
+        .or {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .sign-up {
+            color: #E7FFFF;
+            position: absolute;
+            top: 20px;
+            right: 100px;
+        }
+
+        .password {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .ios {
+            background-image: url(./image/login-ios.png);
+            background-size: 100% 100%;
+        }
+
+        .android {
+            background-image: url(./image/login-android.png);
+            background-size: 100% 100%;
+        }
+
+        .footer-menu {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-row-gap: 5px;
+        }
+
+        .footer-img {
+            display: flex;
+            justify-content: end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div class="body-img mr-20">
+            <img src="./image/login-main.png" alt="">
+        </div>
+        <div class="login mt-20">
+            <div class="login-logo"><img src="./image/logo.png"></div>
+            <table>
+                <tr>
+                    <td> <input type="text" placeholder="전화번호, 사용자 이름 또는 이메일"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="비밀번호"></td>
+                </tr>
+            </table>
+
+            <button class="btn-login">로그인</button>
+
+            <div class="or"><img src="./image/or.png"></div>
+
+            <div class="facebook"><img src="./image/facebook-logo.png">Facebook으로 로그인</div>
+
+
+            <div class="password">비밀번호를 잊으셨나요?</div>
+
+        </div>
+
+        <div class="login-menu">
+            <div>
+                <button class="sign">계정이 없으신가요?</button>
+            </div>
+            <div class="sign-up">가입하기</div>
+            <div>앱을 다운로드 하세요</div>
+        </div>
+
+        <div class="bottom-img">
+            <div class="ios"></div>
+            <div class="android"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-menu">
+            <div>소개</div>
+            <div>도움말</div>
+            <div>홍보 센터</div>
+            <div>API</div>
+            <div>채용 정보</div>
+            <div>개인정보처리방침</div>
+            <div>약관</div>
+            <div>위치</div>
+            <div>인기 계정</div>
+            <div>해시태그</div>
+            <div>언어</div>
+        </div>
+
+        <div class="footer-img">
+            <img src="./image/meta info.png">
+        </div>
+    </footer>
+
+</body>
+
+</html>
